@@ -329,14 +329,20 @@ PlayerSettings:
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 0
-    m_Devices: []
+    m_Devices:
+    - OpenVR
+  - m_BuildTarget: WebGL
+    m_Enabled: 1
+    m_Devices:
+    - OpenVR
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
   m_TemplateCustomTags:
-    DESCRIPTION: Impact demonstration for impacting investment and donations
+    DESCRIPTION: sfh20 cicr VR Changemaking demonstration for impact investment and
+      donations
     META_TAGS: 
-    NAME: sfh20 cicr VR project
+    NAME: Immersed in the change you are making
   mobileMTRendering:
     Android: 1
     iPhone: 1
